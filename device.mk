@@ -21,7 +21,7 @@
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-LOCAL_KERNEL := device/moto/shamu-kernel/zImage-dtb
+LOCAL_KERNEL := kernel/moto/shamu/arch/arm/boot/zImage
 else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
